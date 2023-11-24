@@ -1,0 +1,21 @@
+body {
+    /* color: red; */
+}
+
+header {
+    /* background-color: blueviolet; */
+}
+
+header a {
+    text-decoration: none;
+    color: grey;
+}
+
+h1 {
+    /* color: green; */
+}
+
+footer {
+    /* background-color: aqua; */
+    color: grey;
+}
