@@ -6,6 +6,7 @@ const forecast = require("./utils/forecast");
 const publicDirectoryPath = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../templates/views");
 const partialsPath = path.join(__dirname, "../templates/partials");
+const port = process.env.PORT || 5000;
 
 app.set("view engine", "hbs");
 app.set("views", viewsPath);
@@ -94,6 +95,6 @@ app.get("*", (req, res) => {
 //app.com/about
 //http://localhost:5000/
 
-app.listen(5000, () => {
+app.listen(port, () => {
   console.log("Server is up on port 5000.");
 });
